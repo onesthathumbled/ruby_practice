@@ -1,11 +1,5 @@
-# Determine the place value of the whole number
-def place_value(whole_number)
-    length = whole_number.to_s.length
-    while length > 0
-        puts length
-        length -= 1
-    end
-end
+natural_numbers = [1, 2, 3, 4, 5]
+whole_numbers = [0, 1, 2, 3, 4]
+integers = [-1, -2, -3, 0, 1, 2]
 
-    
-place_value(1235)
+# Comment
