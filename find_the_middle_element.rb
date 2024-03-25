@@ -9,8 +9,7 @@
 # Pseudocode
 # I have 3 elements in an array
 # I will compare each element and look for the min and max values
-# Then I will select the middle one
-# Then I will compare the middle one to the elements of the array and get its index
+# Then I will compare again to get the middle one
 
 def find_the_middle_element(arr)
     max = arr[0]
